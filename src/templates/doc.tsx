@@ -36,6 +36,7 @@ const Blog = ({ data, pageContext }: Props) => {
         rawMarkdownBody={rawMarkdownBody}
         nextDoc={nextDoc}
         sideBarData={pageContext.sideBarData}
+        pageContext={pageContext}
       />
     </Layout>
   )
